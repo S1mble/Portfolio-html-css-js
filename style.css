@@ -264,6 +264,7 @@ section {
 }
 
 /* ABOUT */
+
 #about {
   position: relative;
 }
@@ -301,7 +302,7 @@ section {
   border-radius: 2rem;
   border: rgb(128, 26, 224) 0.1rem solid;
   border-color: rgb(95, 28, 158);
-  text-align: left;
+  text-align: center;
 }
 
 .section-container {
@@ -313,4 +314,42 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+
+/* SKILLS SECTION */
+
+#skills {
+  position: relative;
+}
+
+.skills-sub-title {
+  color: blueviolet;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.skills-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  gap: 1rem;
+}
+
+article .icon {
+  cursor: default;
 }
