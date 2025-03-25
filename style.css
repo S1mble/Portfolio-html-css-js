@@ -263,7 +263,7 @@ section {
   gap: 1rem;
 }
 
-/* ABOUT */
+/* ABOUT_SECTION */
 
 #about {
   position: relative;
@@ -316,6 +316,10 @@ section {
   margin: auto 0;
 }
 
+.about-icon {
+  cursor: default;
+}
+
 /* SKILLS SECTION */
 
 #skills {
@@ -354,7 +358,7 @@ article .icon {
   cursor: default;
 }
 
-/* PROJECTS */
+/* PROJECTS_SECTION */
 
 #project {
   position: relative;
@@ -379,4 +383,41 @@ article .icon {
 .project-btn {
   color: blueviolet;
   border-color: rgb(68, 23, 77);
+}
+
+/* CONTACT_INFO */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+  border: rgb(112, 26, 112) 0.1rem solid;
+  border-color: rgb(187, 18, 187);
+  background: rgb(255, 255, 255);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+  height: 2rem;
 }
